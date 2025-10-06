@@ -1,0 +1,17 @@
+ultralytics==8.0.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+easyocr==1.7.1
+pytesseract==0.3.10
+Flask==3.0.3
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+marshmallow==3.21.2
+pydantic==2.7.1
+tqdm==4.66.4
+Pillow==10.3.0
+moviepy==1.0.3
+pytest==8.2.0
+pytest-mock==3.12.0
+black==24.4.2
