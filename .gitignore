@@ -1,0 +1,48 @@
+# ----------------------------------------
+# General Python Files
+# ----------------------------------------
+# Virtual environment
+/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies
+/lib/
+/lib64/
+/include/
+/bin/
+
+# Environment Variables
+.env
+
+# Logs and SQLite Database (if used for local testing)
+*.log
+*.sqlite3
+
+# ----------------------------------------
+# System-Specific Files
+# ----------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# ----------------------------------------
+# Project-Specific Files (Crucial for this project!)
+# ----------------------------------------
+# Output directories (large video files, images, clips)
+/output/
+
+# Downloaded ML weights (often large)
+*.pt
+yolov8n.pt # Explicitly ignore the weights file if it's downloaded
+runs/
+
+# EasyOCR/YOLO model caches
+.cache/
